@@ -7,14 +7,23 @@
     
 }
 
+body{
+    font-family: 'Emilys Candy', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffa5ab;
+}
+
 .calc{
     display: flex; 
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #eee;
-    border: 3px solid #bbb;
-    width: 230px;
+    background-color: #cddafd;
+    border: 10px solid #da627d;
+    width: 260px;
     border-radius: 5px;
 }
 
@@ -39,19 +48,20 @@
     display: flex; 
     justify-content: center;
     align-items: center; 
-    background-color: #aaa;
-    border: 3px solid #888;
+    background-color: #fb6f92;
+    border: 3px solid #ff8fab;
     border-radius: 10px;
     font-weight: bold;
     width: 50px;
     height: 50px;
     cursor: pointer;
     margin: 2px;
+    font-family: 'Emilys Candy', cursive;
 }
 
 .teclasOp{
-    background-color: #f44 !important;
-    border-color: #800 !important;
+    background-color: #bdb2ff!important;
+    border-color: #c8b6ff !important;
 }
 
 .div_display{
@@ -63,10 +73,11 @@
 }
 
 .display{
-    width: 220px;
-    background-color: #8a8;
+    width: 240px;
+    background-color: #ffcad4;
     text-align: right;
-    padding: 5px;
+    padding: 5px ;
     font-family: monospace;
     font-size: large;
+    font-family: 'Emilys Candy', cursive;
 }
