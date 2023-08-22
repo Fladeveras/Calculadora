@@ -1,6 +1,6 @@
 const teclasNum=[...document.querySelectorAll(".num")]
 const teclasOp=[...document.querySelectorAll(".op")]
-const teclasRes=document.querySelector(".res")
+const teclasRes=document.querySelector("res")
 const teclasD=document.querySelector(".display")
 const ton=document.getElementById("ton")
 const tlimpar=document.getElementById("tlimpar")
@@ -40,7 +40,7 @@ teclasOp.forEach((el)=>{
             teclasD.innerHTML=""
         }
         if(evt.target.innerHTML=="x"){
-            teclasD.innerHTML+="x"
+            teclasD.innerHTML+="*"
         }else{
             teclasD.innerHTML+=evt.target.innerHTML
         }
